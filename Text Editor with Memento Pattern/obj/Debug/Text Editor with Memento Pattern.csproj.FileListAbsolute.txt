@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\bin\Debug\Text Editor with Memento Pattern.exe.config
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\bin\Debug\Text Editor with Memento Pattern.exe
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\bin\Debug\Text Editor with Memento Pattern.pdb
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Views\StartView.g.cs
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern_MarkupCompile.cache
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern_MarkupCompile.lref
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Views\StartView.baml
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.g.resources
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text_Editor_with_Memento_Pattern.Properties.Resources.resources
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.exe
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\Text Editor with Memento Pattern.pdb
+C:\Users\Admin\source\repos\Text Editor with Memento Pattern\Text Editor with Memento Pattern\obj\Debug\App.baml

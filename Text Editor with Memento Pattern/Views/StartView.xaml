@@ -1,0 +1,54 @@
+﻿<Window x:Class="Text_Editor_with_Memento_Pattern.Views.StartView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Text_Editor_with_Memento_Pattern.Views"
+        mc:Ignorable="d"
+        Title="Memento" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="{StaticResource BackgroundColor}">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.Column="1" Source="/Images/previous.png" Margin="15" Cursor="Hand">
+            <Image.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding PreviousCommand}" CommandParameter="{Binding ElementName=TxtBxMessage}"/>
+            </Image.InputBindings>
+        </Image>
+
+        <Image Grid.Row="0" Grid.Column="2" Source="/Images/save.png" Margin="15" Cursor="Hand">
+            <Image.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding SaveCommand}"/>
+            </Image.InputBindings>
+        </Image>
+
+        <Image Grid.Row="0" Grid.Column="3" Source="/Images/next.png" Margin="15" Cursor="Hand">
+            <Image.InputBindings>
+                <MouseBinding Gesture="LeftClick" Command="{Binding NextCommand}" CommandParameter="{Binding ElementName=TxtBxMessage}"/>
+            </Image.InputBindings>
+        </Image>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="6" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 VerticalScrollBarVisibility="Auto" FontSize="18" Margin="5" TextWrapping="Wrap"
+                 Padding="10, 10, 0 ,0" Background="WhiteSmoke" x:Name="TxtBxMessage"
+                 Text="{Binding CurrentMessage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+             
+    </Grid>
+</Window>

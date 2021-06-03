@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text Editor with Memento Pattern", "Text Editor with Memento Pattern\Text Editor with Memento Pattern.csproj", "{BEFD48D9-A08E-4916-9643-C4C83B48393C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFD48D9-A08E-4916-9643-C4C83B48393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFD48D9-A08E-4916-9643-C4C83B48393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFD48D9-A08E-4916-9643-C4C83B48393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFD48D9-A08E-4916-9643-C4C83B48393C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17DCC6B1-2612-40E7-9493-395A44522EE0}
+	EndGlobalSection
+EndGlobal
